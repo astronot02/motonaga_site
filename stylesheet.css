@@ -1,0 +1,63 @@
+h1 {
+  text-align: left;
+  font-size: 60px;
+  color: rgb(130, 134, 70);
+}
+
+.myDiv {
+  padding: 30px;
+  height: 1000px;
+}
+
+.myPadding {
+  padding-left: 500px;
+}
+
+.myPadding2 {
+  padding-left: 515px;
+}
+
+.imageSize {
+  height: 600px;
+  border: 15px solid rgb(0, 0, 0);
+}
+
+.myPic {
+  float: left;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 33%;
+  padding: 10px;
+}
+
+.column img {
+  max-height: 100%;
+  max-width: 400px;
+  padding: 5px;
+  border: solid 3px black;
+}
+
+.works {
+  border-top: 5px solid lightblue;
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.active img:hover {
+  border: black;
+  background: yellowgreen;
+  size: 200%;
+}
