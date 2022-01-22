@@ -1,3 +1,11 @@
+body {
+  background: url(../Images/white_marble.jpeg) repeat;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
 h1 {
   text-align: left;
   font-size: 60px;
@@ -60,4 +68,34 @@ div.active img:hover {
   border: black;
   background: yellowgreen;
   size: 200%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+mark {
+  background-color: rgb(207, 193, 146);
+  color: #111;
 }
